@@ -1,3 +1,2 @@
-# MySQLSkills
-MySQLSkills repository 
-Prezentacja 123
+# SQL_PLSQL
+
