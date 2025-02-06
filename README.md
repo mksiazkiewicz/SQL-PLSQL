@@ -3,7 +3,7 @@
 
 - [SQL presentation](SQL/SQL.pdf)
 
-This presentation contains simulations on a sample database using MS SQL Server and solutions to the SQL HackerRank challenge
+This presentation contains simulations on a sample database using MS SQL Server, PostgreSQL and solutions to the SQL HackerRank challenge
 
 - [PL/SQL scripts](https://github.com/mksiazkiewicz/SQL_PLSQL/tree/main/PL%20SQL)
 
