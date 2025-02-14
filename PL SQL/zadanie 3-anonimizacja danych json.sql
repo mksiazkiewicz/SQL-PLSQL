@@ -1,4 +1,5 @@
-/*   Wykorzystując zaimplementowany w Oracle JSON_OBJECT_T, proszę przygotować funkcję wykonującą uproszczoną anonimizację danych JSON  {"Imie" : "Jan", "Nazwisko" : "Kowalski", "PESEL" : "1234567812345"} w dwóch wersjach
+/*   Wykorzystując zaimplementowany w Oracle JSON_OBJECT_T, proszę przygotować funkcję 
+wykonującą uproszczoną anonimizację danych JSON  {"Imie" : "Jan", "Nazwisko" : "Kowalski", "PESEL" : "1234567812345"} w dwóch wersjach
 a.       Pseudoanonimizacja atrybutu PESEL – używając np. funkcji hash’ujacej (dowolny zaimplementowany bezpośrednio w Oracle algorytm np. MD5)
 b.       Kasując atrybut PESEL */
 

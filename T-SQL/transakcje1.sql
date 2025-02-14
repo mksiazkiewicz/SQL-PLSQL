@@ -55,12 +55,15 @@ SELECT * FROM Zamowienia
 SELECT * FROM SzczegolyZamowienia
 GO
 
+-- Deklaracje zmiennych dla zamówienia
 DECLARE @Klient NVARCHAR(50) = 'XYZ Sp.z o.o.'
 DECLARE @Produkt_ID INT = 3
 DECLARE @Ilosc INT = 7
 DECLARE @CenaJednostkowa DECIMAL
 SELECT @CenaJednostkowa = Cena FROM Produkty WHERE Produkt_ID=@Produkt_ID
 
+
+-- Transakcja 
 BEGIN TRAN
 
 	INSERT INTO Zamowienia (DataZamowienia, Klient) VALUES (GETDATE(), @Klient)

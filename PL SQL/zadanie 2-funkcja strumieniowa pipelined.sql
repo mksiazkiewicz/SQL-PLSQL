@@ -1,4 +1,7 @@
-/* Proszę przygotować funkcję strumieniową (pipelined) zwracającą tablicę obiektów. Obiekt powinien składać się z dwóch elementów ID (number) oraz JSON (clob). JSON to wiersz z  EMPLOYEES przekonwertowany do postaci JSON’a a ID to nr wiersza. 1 wiersz z tabeli to 1 obiekt/wiersz zwracany przez funkcję.*/
+/* Proszę przygotować funkcję strumieniową (pipelined) zwracającą tablicę obiektów. 
+Obiekt powinien składać się z dwóch elementów ID (number) oraz JSON (clob). 
+JSON to wiersz z  EMPLOYEES przekonwertowany do postaci JSON’a a ID to nr wiersza. 
+1 wiersz z tabeli to 1 obiekt/wiersz zwracany przez funkcję.*/
 
 -- typ obiektu 
 create or replace type row_object as object (

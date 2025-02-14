@@ -8,3 +8,7 @@ This presentation contains simulations on a sample database using MS SQL Server 
 - [PL/SQL scripts](https://github.com/mksiazkiewicz/SQL_PLSQL/tree/main/PL%20SQL)
 
 This folder contains PL/SQL scripts prepared using [Oracle LiveSQL](https://livesql.oracle.com) which provides access to sample schemas like HR 💻
+
+- [T-SQL scripts](https://github.com/mksiazkiewicz/SQL-PLSQL/tree/main/T-SQL)
+
+This folder contains T-SQL scripts prepared using MS SQL Server

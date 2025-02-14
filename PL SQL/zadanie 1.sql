@@ -1,4 +1,5 @@
-/* 4.    Proszę o stworzenie procedury, która jest w stanie przyjąć przez parametr listę pracowników z tabeli hr.employees ( lista np. 10 losowych EMPLOYEE_ID), a następnie po wywołaniu procedura powinna wypisać na ekran:
+/* 4.    Proszę o stworzenie procedury, która jest w stanie przyjąć przez parametr listę pracowników 
+z tabeli hr.employees ( lista np. 10 losowych EMPLOYEE_ID), a następnie po wywołaniu procedura powinna wypisać na ekran:
 a.       Imię, nazwisko, adres email dla wszystkich osób z listy
 b.       Nazwisko managera dla pierwszego elementu z listy
 c.       Nazwę departamentu dla ostatniego elementu z listy */
