@@ -33,18 +33,15 @@ insert into employee values(124, 'Dheeraj', 'IT', 11000);
 COMMIT;
 
 
-/* **************
-   Video Summary
- ************** */
 
 select * from employee;
 
 -- Using Aggregate function as Window Function
--- Without window function, SQL will reduce the no of records.
+-- Without window function
 select dept_name, max(salary) from employee
 group by dept_name;
 
--- By using MAX as an window function, SQL will not reduce records but the result will be shown corresponding to each record.
+-- By using MAX as an window function
 select e.*,
 max(salary) over(partition by dept_name) as max_salary
 from employee e;
